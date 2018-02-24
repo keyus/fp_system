@@ -1,0 +1,72 @@
+.login{
+    background-image: url("../images/login/bg9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+
+.login_block{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-70%);
+}
+
+.login_block__form{
+    display: flex;
+    li{
+        height: 150px;
+        margin: 0 10px 10px 0;
+        &:nth-child(1){
+            width: 150px;
+            background: #e8687f
+        }
+        &:nth-child(2){
+            width: 310px;
+            background: #90bb4f
+        }
+        &:nth-child(3){
+            width: 310px;
+            background: #f5c147
+        }
+        &:nth-last-child(1){
+            width: 150px;
+            background: #38bec9
+        }
+    }
+}
+
+.login_block__list{
+    display: flex;
+    li{
+        height: 150px;
+        margin: 0 10px 10px 0;
+        &:nth-child(1){
+            width: 150px;
+            background: #e8687f
+        }
+        &:nth-child(2){
+            width: 310px;
+            background: #90bb4f
+        }
+        &:nth-child(3){
+            width: 310px;
+            background: #f5c147
+        }
+        &:nth-last-child(1){
+            width: 150px;
+            background: #38bec9
+        }
+    }
+}
+
+.login_copyright{
+    position: absolute;
+    left: 0;
+    text-align: center;
+    right: 0;
+    bottom: 40px;
+    color: rgba(255,255,255,.5);
+}
