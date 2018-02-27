@@ -9,15 +9,24 @@
                 <div class="login-wrapper">
                     <div class="login-wrapper__left">
                         <ul>
-                            <li style="background-image: url('/static/images/login/f1.jpg');background-position: bottom center"></li>
+                            <li style="background-image: url('/static/images/login/f1.jpg');background-position: bottom center">
+                            </li>
                             <li style="background: #ffa200">
                                 <i class="hvr-buzz-out fa fa-slideshare"></i>
-                                <span>扶贫对象系统</span>
+                                <span>扶贫对象</span>
                             </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li style="background-image: url('/static/images/login/f2.jpg');background-size: auto;background-position: bottom left"></li>
+                            <li>
+                                <i class="hvr-buzz-out fa fa-street-view"></i>
+                                <span>扶贫项目</span>
+                            </li>
+                            <li style="background: #72be44">
+                                <i class="hvr-buzz-out fa fa-universal-access"></i>
+                                <span>平台管理</span>
+                            </li>
+                            <li style="background-image: url('/static/images/login/f4.jpg');background-size: auto;background-position: center center">
+                                <span style="left: auto;right: 10px">大数据系统</span>
+                            </li>
                         </ul>
                     </div>
                     <div class="login-wrapper__right">
