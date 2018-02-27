@@ -1,25 +1,51 @@
 <template>
     <div class="login">
-        <div class="login_block">
 
-            <ul class="login_block__form">
-                <li>登录</li>
-                <li><input type="text" name="user" placeholder="请输入账户名"></li>
-                <li><input type="password" name="password"  placeholder="请输入密码"></li>
-                <li><button>登录</button></li>
-            </ul>
+        <div class="login-amp">
+            <div class="login-logo">
 
-            <ul class="login_block__list">
-                <li>扶贫对象系统</li>
-                <li>帮扶项目系统</li>
-                <li>帮扶单位</li>
-                <li>大数据分析</li>
-            </ul>
+            </div>
+            <div class="login_block">
+                <div class="login-wrapper">
+                    <div class="login-wrapper__left">
+                        <ul>
+                            <li style="background-image: url('/static/images/login/f1.jpg');background-position: bottom center"></li>
+                            <li style="background: #ffa200">
+                                <i class="hvr-buzz-out fa fa-slideshare"></i>
+                                <span>扶贫对象系统</span>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="login-wrapper__right">
+                        <h2>用户登录</h2>
+                        <div class="login-wrapper__right--item">
+                            <i class="fa fa-user-o"></i>
+                            <input type="text" placeholder="账户名">
+                        </div>
+                        <div class="login-wrapper__right--item">
+                            <i class="fa fa-unlock-alt"></i>
+                            <input type="text" placeholder="密码">
+                        </div>
 
-        </div>
+                        <div class="login-submit">
+                            <button type="submit">登录系统</button>
+                        </div>
 
-        <div class="login_copyright">
-            © 2018-2025 大数据扶贫管理系统 。
+                        <div class="login-forgetpassword">
+                            <a href="javascript:;">忘记密码？</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="login_copyright">
+                © 2018-2025 大数据扶贫管理系统 。
+            </div>
         </div>
     </div>
 </template>
