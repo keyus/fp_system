@@ -12,16 +12,16 @@
                             <li style="background-image: url('/static/images/login/f1.jpg');background-position: bottom center">
                             </li>
                             <li style="background: #ffa200">
-                                <i class="hvr-buzz-out fa fa-slideshare"></i>
+                                <i class="material-icons">supervisor_account</i>
                                 <span>扶贫对象</span>
                             </li>
                             <li style="background-image: url('/static/images/login/f2.jpg');background-size: auto;background-position: bottom left"></li>
                             <li>
-                                <i class="hvr-buzz-out fa fa-street-view"></i>
+                                <i class="material-icons">touch_app</i>
                                 <span>扶贫项目</span>
                             </li>
                             <li style="background: #72be44">
-                                <i class="hvr-buzz-out fa fa-universal-access"></i>
+                                <i class="material-icons">local_library</i>
                                 <span>平台管理</span>
                             </li>
                             <li style="background-image: url('/static/images/login/f4.jpg');background-size: auto;background-position: center center">
@@ -32,11 +32,11 @@
                     <div class="login-wrapper__right">
                         <h2>用户登录</h2>
                         <div class="login-wrapper__right--item">
-                            <i class="fa fa-user-o"></i>
+                            <i class="material-icons">person_outline</i>
                             <input type="text" placeholder="账户名">
                         </div>
                         <div class="login-wrapper__right--item">
-                            <i class="fa fa-unlock-alt"></i>
+                            <i class="material-icons">lock_outline</i>
                             <input type="text" placeholder="密码">
                         </div>
 

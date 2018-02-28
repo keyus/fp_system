@@ -1,0 +1,26 @@
+.DT{
+    position: relative;
+    padding-top: 74px;
+    background-image: url("/static/images/DT/DT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    box-sizing: border-box;
+
+    .DT_header{
+        height: 74px;
+        background: #010933;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        top: 0;
+    }
+
+    .DT_chart{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+

@@ -4,10 +4,9 @@
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url('/static/ui/fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
-    src: url('/static/ui/fonts/MaterialIcons-Regular.woff2') format('woff2'),
-    url('/static/ui/fonts/MaterialIcons-Regular.woff') format('woff'),
-    url('/static/ui/fonts/MaterialIcons-Regular.ttf') format('truetype');
+    src: url('/static/fonts/meterialIcons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/static/fonts/meterialIcons/MaterialIcons-Regular.woff') format('woff'),
+    url('/static/fonts/meterialIcons/MaterialIcons-Regular.ttf') format('truetype');
 
     //src: local('Material Icons'),
     //local('MaterialIcons-Regular'),

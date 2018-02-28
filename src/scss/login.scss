@@ -1,5 +1,6 @@
 .login{
-    background-image: url("/static/images/login/bg1.jpg");
+    background-image: url("/static/images/login/bg.png");
+    //background-image: url("/static/images/login/bg-star.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -102,7 +103,8 @@
                 font-size: 20px;
                 font-weight: 600;
                 letter-spacing: 2px;
-                padding-bottom: 10px;
+                padding-top: 10px;
+                padding-bottom: 30px;
             }
 
             .login-wrapper__right--item{
@@ -115,6 +117,7 @@
                 i{
                     width: 24px;
                     font-size: 16px;
+                    color: #888;
                 }
                 input{
                     min-width: 0;
