@@ -1,5 +1,5 @@
 .login{
-    background-image: url("/static/images/login/bg.png");
+    background-image: url("/static/images/bg.jpg");
     //background-image: url("/static/images/login/bg-star.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,8 +20,9 @@
     //background: url("/static/images/login/login-logo.png") no-repeat;
 }
 .login_block{
-    background: rgba(255,255,255,.15);
-    border: 1px solid #2e89cf;
+    background: rgba(255,255,255,.25);
+    //border: 1px solid #2e89cf;
+    border: 1px solid rgba(255,255,255,.4);
     padding: 10px;
 
 
