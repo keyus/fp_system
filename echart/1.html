@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="echarts.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-size: 12px;
+        }
+
+        .canvas{
+            width: 800px;
+            height: 600px;
+            margin: 100px auto 0 auto;
+            background: #eee;
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="canvas"></div>
+
+<script>
+    let canvas  = document.querySelector('.canvas');
+
+    let tu = echarts.init(canvas);
+
+    let options = {
+        title : {
+            show : true,
+            text : '吉孙',
+            subtext : '熊孩子的玩具',
+            left : 'center'
+        },
+        //x軕
+        xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        //Y轴
+        yAxis: {
+            type: 'value'
+        },
+        series: [{
+            data: [120, 200, 150, 80, 70, 110, 130],
+            type: 'bar'
+        }]
+    };
+
+
+    tu.setOption(options);
+
+
+</script>
+
+</body>
+</html>

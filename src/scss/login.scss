@@ -17,8 +17,7 @@
 .login-logo{
     width: 427px;
     height: 57px;
-    background: url("/static/images/login/login-logo.png") no-repeat;
-    margin-bottom: 40px;
+    //background: url("/static/images/login/login-logo.png") no-repeat;
 }
 .login_block{
     background: rgba(255,255,255,.15);
@@ -136,6 +135,7 @@
                     border:1px solid rgba(0,0,0,0.05);
                     height: 35px;
                     color: #fff;
+                    cursor: pointer;
                 }
             }
 

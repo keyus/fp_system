@@ -1,0 +1,98 @@
+.header-navbar{
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: $colorHeaderbg;
+    z-index: 9;
+    padding-left: 270px;
+    display: flex;
+    .header-navbar__logo{
+        width: 270px;
+        height: 100%;
+        background: $colorHeaderbg;
+        overflow: visible;
+        position: absolute;
+        left: 0;
+        top: 0;
+        h1{
+            padding-top: 16px;
+            padding-left: 10px;
+            img{
+                width: 170px;
+            }
+        }
+    }
+
+    .header-navbar__left,
+    .header-navbar__right{
+        display: flex;
+        padding-left: 10px;
+        flex: 1;
+        min-width: 0;
+        li{
+            display: block;
+            height: 100%;
+            a{
+                margin-left: -10px;
+                height: 100%;
+                padding: 0 15px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                &.fold{
+                    margin-right: 10px;
+                    span{
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                        width: 34px;
+                        height: 34px;
+                        text-align: center;
+                        padding-top: 6px;
+                    }
+                    .material-icons{
+                        margin-right: 0;
+                        font-size: 20px;
+                    }
+                }
+                &.datacenter{
+                    .material-icons{
+                        margin-right: 5px;
+                    }
+                }
+                &.layout{
+                    width: 65px;
+                    padding: 0;
+                    justify-content: center;
+                    background: rgba(255,255,255,.15);
+                }
+
+                span{
+                    margin-left: 6px;
+                }
+            }
+
+            .avatar{
+                width: 40px;
+                height: 40px;
+                overflow: hidden;
+                border-radius: 4px;
+                background: rgba(255,255,255,.15);
+                margin: 0 6px 0 6px;
+                img{
+                    max-width: 100%;
+                    border: none;
+                }
+            }
+            .material-icons{
+                font-size: 25px;
+            }
+        }
+    }
+
+    .header-navbar__right{
+        flex: none;
+    }
+}

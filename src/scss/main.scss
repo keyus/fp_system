@@ -1,3 +1,30 @@
 .system{
+    width: 100%;
+    min-height: 100vh;
+    background: $colorMainbg;
+    padding-top: 70px;
+    .system-main{
+        min-height: calc(100vh - 70px);
+        position: relative;
+        margin-left: 270px;
+        div{
+            height: 500px;
+        }
+    }
+}
 
+.sider-navbar{
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    bottom: 0;
+    background: $colorSiderbg;
+    overflow: visible;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
+}
+
+.main-section{
+    overflow-x: hidden;
 }

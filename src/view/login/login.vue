@@ -3,7 +3,7 @@
 
         <div class="login-amp">
             <div class="login-logo">
-
+                <img src="/static/images/logo.png" width="170" alt="">
             </div>
             <div class="login_block">
                 <div class="login-wrapper">
@@ -41,7 +41,7 @@
                         </div>
 
                         <div class="login-submit">
-                            <button type="submit">登录系统</button>
+                            <button type="submit" @click="submit">登录系统</button>
                         </div>
 
                         <div class="login-forgetpassword">
@@ -53,8 +53,18 @@
             </div>
 
             <div class="login_copyright">
-                © 2018-2025 大数据扶贫管理系统 。
+                © 2018-2025 大数据扶贫管理系统 温馨提示：使用IE浏览器请升级到IE11及以上版本。
             </div>
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        methods : {
+            submit(){
+                this.$router.push('/system')
+            }
+        }
+    }
+</script>
