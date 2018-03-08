@@ -21,6 +21,9 @@
         components : {
             headerNavbar,
             siderNavbar,
+        },
+        mounted (){
+
         }
     }
 </script>

@@ -8,7 +8,7 @@
             <li><a href="javascript:;"><i class="material-icons">fullscreen</i></a></li>
             <li><a href="javascript:;"><i class="material-icons">search</i></a></li>
             <li><a href="javascript:;"><i class="material-icons">apps</i> <span>快捷导航</span></a></li>
-            <li><a href="javascript:;" class="datacenter"><i class="material-icons">bubble_chart</i>大数据监控</a></li>
+            <li><a href="javascript:;" class="datacenter"><i class="material-icons">broken_image</i>大数据监控</a></li>
         </ul>
         <ul class="header-navbar__right">
             <li><a href="javascript:;"><i class="material-icons">chat</i></a></li>

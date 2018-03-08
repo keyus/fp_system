@@ -6,8 +6,9 @@
     top: 0;
     background: $colorHeaderbg;
     z-index: 9;
-    padding-left: 270px;
+    padding-left: 250px;
     display: flex;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
     .header-navbar__logo{
         width: 270px;
         height: 100%;
@@ -47,10 +48,10 @@
                     span{
                         border: 1px solid #fff;
                         border-radius: 50%;
-                        width: 34px;
-                        height: 34px;
+                        width: 30px;
+                        height: 30px;
                         text-align: center;
-                        padding-top: 6px;
+                        padding-top: 4px;
                     }
                     .material-icons{
                         margin-right: 0;
